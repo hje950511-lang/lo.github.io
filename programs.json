@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "숲속 생태 탐험 프로그램",
+    "ageGroup": "9-11",
+    "category": ["Nature"],
+    "date": "2026-06-06",
+    "location": "DMZ 야생동식물원",
+    "phone": "033-480-2529",
+    "description": "전문 숲해설가와 함께하는 DMZ 야생화 생태 탐방 및 천연 나뭇잎 액자 만들기 체험",
+    "rewards": ["자연 감수성 향상 🌳", "동식물 생태 지식 습득 🌿", "천연 나뭇잎 액자 만들기 🧸"],
+    "url": "https://www.yanggu.go.kr/lll/yglll/index.do"
+  },
+  {
+    "id": 2,
+    "title": "박수근 미술관 어린이 회화 교실",
+    "ageGroup": "9-11",
+    "category": ["Arts"],
+    "date": "2026-06-06",
+    "location": "박수근 미술관",
+    "phone": "033-480-2655",
+    "description": "양구가 낳은 세계적인 화가 박수근 화백의 화풍을 배우고 화강암 질감의 수채화를 직접 그려보는 시간",
+    "rewards": ["예술적 표현력 발달 🎨", "회화 드로잉 감각 향상 🖌️", "박수근 미술관 기념품 🎨"],
+    "url": "https://www.yanggu.go.kr/lll/yglll/index.do"
+  },
+  {
+    "id": 3,
+    "title": "양구 백토 전통 도자기 체험",
+    "ageGroup": "6-8",
+    "category": ["Crafts"],
+    "date": "2026-06-07",
+    "location": "양구백자박물관",
+    "phone": "033-480-2664",
+    "description": "천년 역사 양구 백토를 손으로 직접 빚어 세상에 하나뿐인 나만의 도자기 백자 컵 만들기",
+    "rewards": ["창의성 및 집중력 배양 🏺", "소근육 발달 및 손재주 향상 👐", "나만의 백자 컵 완성 🏺"],
+    "url": "https://www.yanggu.go.kr/lll/yglll/index.do"
+  },
+  {
+    "id": 4,
+    "title": "두타연 계곡 역사 생태 트레킹",
+    "ageGroup": "12-14",
+    "category": ["Nature"],
+    "date": "2026-06-13",
+    "location": "방산면 두타연 계곡",
+    "phone": "033-480-2251",
+    "description": "천혜의 비경 두타연 폭포와 출렁다리를 지나며 양구의 희귀 산양을 직접 관찰하는 친환경 자연 탐방로 도보 여행",
+    "rewards": ["자연 속 기초 체력 증진 🌳", "야생 동식물 관찰 능력 🦌", "완주 성취감 및 완주 배지 🏅"],
+    "url": "https://www.yanggu.go.kr/lll/yglll/index.do"
+  },
+  {
+    "id": 5,
+    "title": "해피에듀 청소년 1:1 진로진학 컨설팅",
+    "ageGroup": "15-18",
+    "category": ["Career Exploration"],
+    "date": "2026-06-14",
+    "location": "양구 교육캠퍼스 에듀센터 2층",
+    "phone": "033-480-2431",
+    "description": "대학 입시 및 미래 설계 진로에 대해 전문 입시 컨설턴트가 1:1로 맞춤형 입시 진학 로드맵을 그려주는 양구 행복교육 프로그램",
+    "rewards": ["진로 및 적성 탐색 🎓", "입시 및 진학 정보 획득 📊", "나만의 맞춤형 진로 로드맵 수립 ✨"],
+    "url": "https://www.yanggu.go.kr/happyedu"
+  },
+  {
+    "id": 6,
+    "title": "평생학습관 영어놀이터 (아동 스토리텔링)",
+    "ageGroup": "6-8",
+    "category": ["Crafts"],
+    "date": "2026-06-06",
+    "location": "양구군 평생학습관 어린이 교육실",
+    "phone": "033-480-2421",
+    "description": "그림책 스토리텔링과 신나는 영어 동요 놀이를 통해 재미있게 소통하고 표현력을 기르는 어린이 평생 교육 강좌",
+    "rewards": ["영어 친밀감 향상 🧸", "스토리텔링과 언어 표현력 🗣️", "알파벳 교재 및 퍼즐 세트 🧸"],
+    "url": "https://www.yanggu.go.kr/lll/yglll/index.do"
+  },
+  {
+    "id": 7,
+    "title": "평생학습관 청소년 방송 댄스 스포츠 교실",
+    "ageGroup": "9-11",
+    "category": ["Sports", "Arts"],
+    "date": "2026-06-13",
+    "location": "양구군 평생학습관 체육실",
+    "phone": "033-480-2422",
+    "description": "최신 유행하는 K-POP 안무를 배우며 리듬감을 익히고, 기초 체력과 표현력을 신나게 기르는 평생학습 청소년 댄스 수업",
+    "rewards": ["리듬감 및 신체 표현력 발달 💃", "유산소 기초 체력 향상 ⚽", "신체 활동 성취감 획득 ⚽"],
+    "url": "https://www.yanggu.go.kr/lll/yglll/index.do"
+  },
+  {
+    "id": 8,
+    "title": "평생학습관 아동 창의 과학 보드게임 교실",
+    "ageGroup": "6-8",
+    "category": ["Science"],
+    "date": "2026-06-07",
+    "location": "양구군 평생학습관 스마트 배움터",
+    "phone": "033-480-2421",
+    "description": "재미있는 과학 원리 보드게임과 교구를 직접 조작하며 논리적 사고와 문제해결력을 기르는 아동 창의 평생 교실",
+    "rewards": ["논리적 사고 및 수리력 향상 🔬", "문제 해결 능력 배양 🧩", "창의 퍼즐 교구 증정 🔬"],
+    "url": "https://www.yanggu.go.kr/lll/yglll/index.do"
+  },
+  {
+    "id": 9,
+    "title": "에듀센터 주말 행복 창의 동아리 활동",
+    "ageGroup": "12-14",
+    "category": ["Arts", "Science"],
+    "date": "2026-06-14",
+    "location": "양구군 청소년수련관 에듀센터 동아리실",
+    "phone": "033-480-2411",
+    "description": "밴드, 보드게임, 레고 코딩, 연극 등 청소년들이 원하는 주제를 정해 동아리 주말 자율 소모임 활동을 갖고 연구할 수 있도록 공간 및 활동을 지원하는 행복 교육 프로그램",
+    "rewards": ["자기주도적 및 협동 지능 향상 🤝", "동아리 소통과 협동심 배양 💡", "자율 창의 동아리 활동 지원 🤝"],
+    "url": "https://www.yanggu.go.kr/happyedu"
+  },
+  {
+    "id": 10,
+    "title": "청소년 ITQ 엑셀 자격증 정복반",
+    "ageGroup": "15-18",
+    "category": ["Science", "Career Exploration"],
+    "date": "2026-06-13",
+    "location": "양구 교육캠퍼스 컴퓨터 강의실",
+    "phone": "033-480-2468",
+    "description": "국가공인 ITQ 엑셀 자격증 취득을 목표로 문서 작성, 함수 계산, 그래프 활용 등 실무 능력을 기르는 청소년 컴퓨터 평생 교실",
+    "rewards": ["실무 오피스 마스터 능력 배양 📊", "ITQ 엑셀 자격증 완벽 대비 🎓", "엑셀 핵심 요약 필기 노트 🎓"],
+    "url": "https://www.yanggu.go.kr/lll/yglll/index.do"
+  }
+]

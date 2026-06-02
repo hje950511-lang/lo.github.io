@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="양구 교육 서비스가 제안하는 우리 자녀를 위한 주말 맞춤형 체험 학습 및 활동 리스트를 확인해 보세요.">
+  <meta name="author" content="Yanggu Education Service">
+  
+  <title>추천 결과 | 양구 교육 서비스</title>
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Floating Parallax Forest SVG Background Elements -->
+  <!-- Leaf top left -->
+  <svg class="forest-bg-element forest-leaf-top" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M50 10C50 10 20 30 20 60C20 76.5 33.5 90 50 90C66.5 90 80 76.5 80 60C80 30 50 10 50 10Z" fill="#4E6E50" fill-opacity="0.12"/>
+    <path d="M50 10V90M50 60L70 45M50 75L75 55M50 45L30 30" stroke="#4E6E50" stroke-width="2" stroke-opacity="0.15" stroke-linecap="round"/>
+  </svg>
+  <!-- Tree bottom left -->
+  <svg class="forest-bg-element forest-tree-left" viewBox="0 0 200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M100 30L30 150H170L100 30Z" fill="#4E6E50" fill-opacity="0.08"/>
+    <path d="M100 80L50 180H150L100 80Z" fill="#4E6E50" fill-opacity="0.12"/>
+    <path d="M100 120L70 220H130L100 120Z" fill="#4E6E50" fill-opacity="0.15"/>
+    <rect x="92" y="220" width="16" height="50" rx="4" fill="#8B5E3C" fill-opacity="0.25"/>
+  </svg>
+  <!-- Tree middle right -->
+  <svg class="forest-bg-element forest-tree-right" viewBox="0 0 200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M100 20L40 130H160L100 20Z" fill="#4E6E50" fill-opacity="0.06"/>
+    <path d="M100 70L55 170H145L100 70Z" fill="#4E6E50" fill-opacity="0.1"/>
+    <path d="M100 110L70 210H130L100 110Z" fill="#4E6E50" fill-opacity="0.14"/>
+    <rect x="94" y="210" width="12" height="60" rx="3" fill="#8B5E3C" fill-opacity="0.2"/>
+  </svg>
+
+  <!-- Header -->
+  <header class="app-header">
+    <div class="container header-container">
+      <a href="index.html" class="logo-link" id="headerLogoLink">
+        <svg class="logo-icon" viewBox="0 0 24 24">
+          <path d="M12 2C12 2 4 8 4 14C4 18.42 7.58 22 12 22C16.42 22 20 18.42 20 14C20 8 12 2 12 2Z" fill="#E8EFE9" />
+          <path d="M12 2V22M12 14L16 10M12 18L18 12M12 10L8 6" stroke="#8B5E3C" stroke-width="2" stroke-linecap="round" />
+        </svg>
+        <span>양구 교육 서비스</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Flow Progress Indicator -->
+  <div class="container">
+    <div class="flow-indicator" id="flowIndicator">
+      <span class="flow-step">홈</span>
+      <span class="flow-step">조건 선택</span>
+      <span class="flow-step active">추천 활동</span>
+    </div>
+  </div>
+
+  <!-- Results Content -->
+  <main class="container">
+    
+    <!-- Results Header Summary -->
+    <header class="results-header" id="resultsSummaryBlock">
+      <div class="results-title-row">
+        <h2 style="font-size: 21px; color: var(--color-text-dark);">추천 주말 활동 목록</h2>
+      </div>
+      
+      <!-- Search criteria badges container -->
+      <div class="results-badge-wrapper" id="searchTagsContainer">
+        <!-- Rendered dynamically in JS -->
+      </div>
+      
+      <p class="results-count-msg" id="resultsCount">조건에 맞는 주말 활동을 분석하고 있습니다...</p>
+    </header>
+
+    <!-- Cards Grid -->
+    <section class="cards-grid" id="cardsGrid">
+      <!-- Cards rendered dynamically in JS -->
+      <!-- Fallback loader state -->
+      <div style="text-align: center; padding: 40px 0; color: var(--color-text-subdued);">
+        <p>프로그램 데이터를 분석하는 중입니다...</p>
+      </div>
+    </section>
+
+    <!-- Refinement Navigation Links -->
+    <nav class="results-actions" style="animation-delay: 0.2s;" id="resultsNavigationBlock">
+      <a href="find.html" class="btn btn-secondary" style="width: 100%; max-width: 320px;" id="modifySearchBtn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 2px;">
+          <polyline points="23 4 23 10 17 10"></polyline>
+          <polyline points="1 20 1 14 7 14"></polyline>
+          <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
+        </svg>
+        검색 조건 변경하기
+      </a>
+      <a href="index.html" style="color: var(--color-primary); font-weight: 700; font-size: 14px; text-decoration: underline;" id="homeLinkBtn">처음 화면으로 돌아가기</a>
+    </nav>
+
+  </main>
+
+  <!-- Interactive Detail Modal -->
+  <div class="modal-overlay" id="detailModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-box">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="닫기">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+
+      <div class="modal-category-badges" id="modalCategoryBadges">
+        <!-- Rendered in JS -->
+      </div>
+
+      <h3 class="modal-title" id="modalTitle">활동 제목</h3>
+
+      <div class="modal-details">
+        <div class="detail-row">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" /></svg>
+          <span class="modal-date">체험 날짜 및 시간</span>
+        </div>
+        <div class="detail-row">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" /></svg>
+          <span class="modal-location">체험 장소</span>
+        </div>
+      </div>
+
+      <h4 class="modal-description-title">활동 상세 정보</h4>
+      <p class="modal-description-text" id="modalDescriptionText">세부 묘사 소개글</p>
+
+      <div class="modal-footer">
+        <button class="btn btn-secondary" id="modalCancelBtn">닫기</button>
+        <button class="btn btn-primary modal-apply-btn" id="modalApplyBtn">신청 페이지로 이동</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="app-footer">
+    <div class="container footer-content">
+      <div class="footer-logo">
+        <svg class="logo-icon" style="width:20px; height:20px;" viewBox="0 0 24 24">
+          <path d="M12 2C12 2 4 8 4 14C4 18.42 7.58 22 12 22C16.42 22 20 18.42 20 14C20 8 12 2 12 2Z" fill="#E8EFE9" />
+          <path d="M12 2V22M12 14L16 10M12 18L18 12M12 10L8 6" stroke="#8B5E3C" stroke-width="2" stroke-linecap="round" />
+        </svg>
+        <span>양구 교육 서비스 MVP</span>
+      </div>
+      <p>본 서비스는 양구군 관내 아동·청소년 주말 체험 정보 제공 활성화를 위한 MVP 시범 서비스입니다.</p>
+      <p style="font-size: 12px; margin-top: 8px;">&copy; 2026 Yanggu Education Service. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="main.js"></script>
+</body>
+</html>
